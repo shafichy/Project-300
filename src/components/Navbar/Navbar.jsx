@@ -5,7 +5,7 @@ const Navbar = () => {
     const navLinks = <>
     <li><NavLink to="/">Home</NavLink></li>
     <li><NavLink to="/profile">Profile</NavLink></li>
-    <li><NavLink to="/about">About</NavLink></li>
+    <li><NavLink to="/about">About US</NavLink></li>
     </>
     return (
         <div className="container mx-auto">
