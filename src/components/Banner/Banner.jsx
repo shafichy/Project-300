@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 const Banner = () => {
     return (
-        <div>
+        <div className='mt-10'>
                 <Swiper
      modules={[Navigation, Pagination, Scrollbar, A11y]}
      spaceBetween={50}
@@ -23,16 +23,16 @@ const Banner = () => {
     >
      
       <SwiperSlide>
-        <img className='w-[1600px] h-[700px]' src={metro4} alt="" />
+        <img className='w-[1600px] h-[700px] rounded-xl' src={metro4} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-         <img className='  w-[1600px] h-[700px]'  src={metro2} alt=""  />
+         <img className='  w-[1600px] h-[700px] rounded-xl'  src={metro2} alt=""  />
       </SwiperSlide>
       <SwiperSlide>
-        <img className='w-[1600px] h-[700px]' src={metro3} alt="" />
+        <img className='w-[1600px] h-[700px] rounded-xl' src={metro3} alt="" />
         </SwiperSlide>
       <SwiperSlide>
-        <img className='w-[1600px] h-[700px]' src={metro1} alt="" />
+        <img className='w-[1600px] h-[700px] rounded-xl' src={metro1} alt="" />
         </SwiperSlide>
       
     </Swiper>
