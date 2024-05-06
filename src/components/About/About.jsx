@@ -2,11 +2,39 @@ import anika from '../../assets/Anika.png'
 import nayeb from '../../assets/nayeb2.jpg'
 import shafi from '../../assets/shafi.jpeg'
 import Raisa from '../../assets/raisa.png'
+import { Typewriter } from 'react-simple-typewriter'
 
 const About = () => {
     return (
         <div className='container mx-auto mt-20'>
-       <div className='flex gap-20'>
+          <h1 className='text-center text-3xl'>Welcome to   <span style={{ color: 'red', fontWeight: 'bold' }}>
+          {/* Style will be inherited from the parent element */}
+          <Typewriter
+            words={['Byte Brigade']}
+            loop={5}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          
+          />
+        </span></h1>
+        <p className='mt-8 text-center text-lg text-[#131313] font-bold'>Our university project, powered by a dedicated team of four members, aims to revolutionize learning through innovative  technology solutions. With a collaboration, creativity, <br />
+        <span style={{ color: 'blue', fontWeight: 'bold' }}>
+          {/* Style will be inherited from the parent element */}
+          <Typewriter
+            words={[' and cutting-edge development, we strive to deliver impactful solutions that enhance the educational experience for students and educators alike']}
+            loop={5}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          
+          />
+        </span></p>
+       <div className='flex gap-20 mt-10'>
        <div className='flex flex-col gap-8 '>
        <div className='bg-[#1313130D] p-10 rounded-2xl w-[700px]' data-aos="fade-up"
      data-aos-duration="3000">
